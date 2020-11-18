@@ -1,0 +1,372 @@
+{
+    "sev5_grace_period": 0,
+    "sev4_grace_period": 0,
+    "sev3_grace_period": 0,
+    "sev2_grace_period": 0,
+    "sev1_grace_period": 0,
+    "sev0_grace_period": 0,
+    "score_grace_period": 0,
+    "sca_blacklist_grace_period": 0,
+    "name": "HIPAA/Omnibus Act/HITECH/HITRUST",
+    "description": "This policy was created to act as a guide for those attempting to comply with HIPAA + Omnibus/HITECH/HITRUST",
+    "scan_frequency_rules": [
+      {
+        "scan_type": "MANUAL",
+        "frequency": "ANNUALLY"
+      },
+      {
+        "scan_type": "DYNAMIC",
+        "frequency": "QUARTERLY"
+      },
+      {
+        "scan_type": "STATIC",
+        "frequency": "MONTHLY"
+      }
+    ],
+    "finding_rules": [
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "21"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "319"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "8"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "321"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "287"
+      },
+      {
+        "type": "SECURITY_STANDARD",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "owasp"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "201"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "347"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "522"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "327"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "326"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "526"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "548"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "10"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "209"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "506"
+      },
+      {
+        "type": "SECURITY_STANDARD",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "cwe_veracode"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "296"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "354"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "497"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "530"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "312"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "256"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "311"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "498"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "215"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "259"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "611"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "732"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "313"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "511"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "316"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "514"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "315"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "359"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "12"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "614"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "11"
+      }
+    ],
+    "vendor_policy": false,
+    "custom_severities": []
+  }

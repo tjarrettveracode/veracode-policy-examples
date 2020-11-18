@@ -1,0 +1,230 @@
+{
+    "sev5_grace_period": 0,
+    "sev4_grace_period": 0,
+    "sev3_grace_period": 0,
+    "sev2_grace_period": 0,
+    "sev1_grace_period": 0,
+    "sev0_grace_period": 0,
+    "score_grace_period": 0,
+    "sca_blacklist_grace_period": 0,
+    "name": "FISMA - \"Build it Right - Continuously Monitor\"",
+    "type": "CUSTOMER",
+    "description": "NVD cross-section mappings of CWEs.  DIACAP/FEDRAMP based off of the same requirements.",
+    "scan_frequency_rules": [
+      {
+        "scan_type": "ANY",
+        "frequency": "ONCE"
+      }
+    ],
+    "finding_rules": [
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "10"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "94"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "20"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "30"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "22"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "78"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "89"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "8"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "79"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "7"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "2"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "352"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "134"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "200"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "310"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "19"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "287"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "18"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "15"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "25"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "14"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "12"
+      },
+      {
+        "type": "CATEGORY",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "22"
+      }
+    ],
+    "vendor_policy": false,
+    "custom_severities": []
+  }
