@@ -24,7 +24,7 @@ To add one of these policies to your organization in Veracode, use the Veracode 
 
 * [FISMA](examples/fisma.json) - NVD cross-section mappings of CWEs.  DIACAP/FEDRAMP based off of the same requirements.
 * [HIPAA](examples/hipaa.json) - Example policy to act as a guide for those attempting to comply with HIPAA + Omnibus/HITECH/HITRUST.
-* Verified Policies
-  * Verified Standard
-  * Verified Team
-  * Verified Continuous
+* [Veracode Verified](https://veracode.com/verified) Policies
+  * [Verified Standard](examples/verified/verified-standard.json) - initial level of Veracode Verified
+  * [Verified Team](examples/verified/verified-team.json) - second level of Veracode Verified
+  * [Verified Continuous](examples/verified/verified-continuous.json) - highest level of Veracode Verified

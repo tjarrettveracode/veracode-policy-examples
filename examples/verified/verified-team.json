@@ -1,0 +1,23 @@
+{
+    "sev5_grace_period": 60,
+    "sev4_grace_period": 60,
+    "sev3_grace_period": 0,
+    "sev2_grace_period": 0,
+    "sev1_grace_period": 0,
+    "sev0_grace_period": 0,
+    "score_grace_period": 0,
+    "sca_blacklist_grace_period": 0,
+    "name": "Verified Team",
+    "description": "Second stage of maturity in Veracode Verified (https://www.veracode.com/verified).",
+    "scan_frequency_rules": [{
+        "scan_type": "STATIC",
+        "frequency": "QUARTERLY"
+    }],
+    "finding_rules": [{
+        "type": "MAX_SEVERITY",
+        "scan_type": ["MANUAL", "STATIC", "DYNAMIC"],
+        "value": "4"
+    }],
+    "vendor_policy": false,
+    "custom_severities": []
+}

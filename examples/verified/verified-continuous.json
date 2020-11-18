@@ -1,0 +1,28 @@
+{
+    "sev5_grace_period": 30,
+    "sev4_grace_period": 30,
+    "sev3_grace_period": 30,
+    "sev2_grace_period": 0,
+    "sev1_grace_period": 0,
+    "sev0_grace_period": 0,
+    "score_grace_period": 0,
+    "sca_blacklist_grace_period": 0,
+    "name": "Verified Continuous",
+    "description": "Highest level of Veracode Verified (https://www.veracode.com/verified).",
+    "version": 1,
+    "scan_frequency_rules": [{
+        "scan_type": "STATIC",
+        "frequency": "MONTHLY"
+    }],
+    "finding_rules": [{
+        "type": "CVSS",
+        "scan_type": ["SCA"],
+        "value": "4"
+    }, {
+        "type": "MAX_SEVERITY",
+        "scan_type": ["MANUAL", "STATIC", "DYNAMIC"],
+        "value": "3"
+    }],
+    "vendor_policy": false,
+    "custom_severities": []
+}
