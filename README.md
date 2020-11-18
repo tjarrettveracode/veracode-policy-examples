@@ -18,7 +18,7 @@ To add one of these policies to your organization in Veracode, use the Veracode 
 1. Download the policy JSON file to your local system (e.g. `example.json`).
 2. Execute the following command at the command line:
 
-`http --auth-type=veracode_hmac PUT "https://api.veracode.com/appsec/v1/policies" < example.json`
+`http --auth-type=veracode_hmac POST "https://api.veracode.com/appsec/v1/policies" < example.json`
 
 ## Example policies
 
