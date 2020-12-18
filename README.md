@@ -24,6 +24,7 @@ To add one of these policies to your organization in Veracode, use the Veracode 
 
 * [FISMA](examples/fisma.json) - NVD cross-section mappings of CWEs.  DIACAP/FEDRAMP based off of the same requirements.
 * [HIPAA](examples/hipaa.json) - Example policy to act as a guide for those attempting to comply with HIPAA + Omnibus/HITECH/HITRUST.
+* [OWASP API Security Top 10 2019](examples/owaspapi2019.json) - Policy based on the CWE mappings in the (preview version of the) OWASP API Security Top 10 list for 2019. (Note: *In some cases, child or parent CWEs of the ones mentioned in the standard have been used depending on how Veracode categorizes the vulnerabilities.*)
 * [Veracode Verified](https://veracode.com/verified) Policies
   * [Verified Standard](examples/verified/verified-standard.json) - initial level of Veracode Verified
   * [Verified Team](examples/verified/verified-team.json) - second level of Veracode Verified

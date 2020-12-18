@@ -1,0 +1,157 @@
+{
+    "sev5_grace_period": 0,
+    "sev4_grace_period": 0,
+    "sev3_grace_period": 0,
+    "sev2_grace_period": 0,
+    "sev1_grace_period": 0,
+    "sev0_grace_period": 0,
+    "score_grace_period": 0,
+    "sca_blacklist_grace_period": 0,
+    "name": "OWASP API Top 10 2019",
+    "description": "Policy based on https://github.com/OWASP/API-Security/. Mappings maintained by the project team and subject to change.",
+    "scan_frequency_rules": [
+      {
+        "scan_type": "ANY",
+        "frequency": "ONCE"
+      }
+    ],
+    "finding_rules": [
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "915"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "77"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "78"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "89"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "16"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "284"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "693"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "285"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "200"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "287"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "400"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "201"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "223"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "798"
+      },
+      {
+        "type": "CWE",
+        "scan_type": [
+          "MANUAL",
+          "STATIC",
+          "DYNAMIC"
+        ],
+        "value": "307"
+      }
+    ],
+    "vendor_policy": false,
+    "custom_severities": []
+  }
