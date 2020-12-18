@@ -12,9 +12,10 @@ This resource is not intended to be comprehensive, but we welcome contributions 
 
 ## Adding to the List
 
-- We welcome open source projects that use the Veracode APIs and/or work with Veracode data (e.g. detailedreport XML or Findings API JSON). Submissions will be reviewed for API usage and completeness of functionality.
-- Please add the content to the `README.md` file and make sure that the edited list is in alphabetical order.
-- Submit a pull request.
+- We welcome sample policy contributions that don't duplicate other policies already submitted.
+- We welcome pull requests against existing sample policies.
+- To add a policy, construct it in the Veracode Platform, then download the policy definition using the [Veracode Policy API](https://help.veracode.com/go/c_policy_rest_api).
+- Submit a pull request adding the policy JSON file and a pointer in the README.md file with a description of the policy.
 
 ## Removing from the List
 
@@ -23,7 +24,3 @@ This resource is not intended to be comprehensive, but we welcome contributions 
 ## Contributors
 
 - [Tim Jarrett](https://github.com/tjarrettveracode)
-- [Buzzcode](https://github.com/buzzcode)
-- [Sebcoles](https//github.com/sebcoles)
-- [Antfie](https://github.com/antfie)
-- [JonZeolla-Seiso](https://github.com/JonZeolla-Seiso)
